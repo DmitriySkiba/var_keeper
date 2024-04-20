@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Run Unit Tests
         run: |
+          tree
           chmod +x ./test/unit-tests.sh
           ./test/unit-tests.sh
         shell: bash
