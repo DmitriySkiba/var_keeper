@@ -12,9 +12,14 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v3
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> eab0430e335927ef65b971485b36278778c7476c
       - name: Run Unit Tests
         run: |
+          tree
           chmod +x ./test/unit-tests.sh
           ./test/unit-tests.sh
         shell: bash
